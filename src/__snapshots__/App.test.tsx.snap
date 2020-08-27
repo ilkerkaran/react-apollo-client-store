@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="Form"
+  >
+    <h4>
+      Form Title
+    </h4>
+    <form>
+      <button
+        className="Button Success"
+        onClick={[Function]}
+        type="button"
+      >
+         
+        Send
+      </button>
+    </form>
+  </div>
+</div>
+`;

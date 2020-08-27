@@ -1,0 +1,77 @@
+{
+  "extends": [
+        "plugin:react/recommended",
+        "airbnb"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "jest": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true,
+      "tsx":true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react"
+  ],
+  "rules": {
+    "jsx-a11y/href-no-hash": [
+      "off"
+    ],
+    "react/jsx-filename-extension": [
+      "warn",
+      {
+        "extensions": [
+          ".js",
+          ".jsx",
+          ".tsx"
+        ]
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 80,
+        "tabWidth": 2,
+        "comments": 80,
+        "ignoreComments": false,
+        "ignoreTrailingComments": true,
+        "ignoreUrls": true,
+        "ignoreStrings": true,
+        "ignoreTemplateLiterals": true,
+        "ignoreRegExpLiterals": true
+      }
+    ],
+    "react/prop-types": [
+      0,
+      {
+        "ignore": [
+          "children"
+        ]
+      }
+    ],
+    "no-use-before-define": "off",
+    "react/prefer-stateless-function": "warn",
+    "no-useless-constructor": "warn",
+    "react/no-array-index-key": "warn",
+    "react/forbid-prop-types": "warn",
+    "react/destructuring-assignment": "warn",
+    "import/no-named-as-default": "off",    
+    "import/no-named-as-default-member":"off",
+    "import/no-unresolved": "off",
+    "import/extensions":"off",
+    "import/no-extraneous-dependencies":"off",
+    "comma-dangle": [
+      "error",
+      "never"
+    ]    
+  }
+}
